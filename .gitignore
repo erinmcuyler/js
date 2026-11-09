@@ -18,3 +18,13 @@ build/
 .env.development.local
 .env.test.local
 .env.production.local
+*.local
+
+# IDE and editor files
+.vscode/*
+!.vscode/extensions.json
+.idea/
+*.swp
+*.swo
+*~
+*.suo
